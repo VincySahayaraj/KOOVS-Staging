@@ -1,0 +1,34 @@
+.myaccount .update-info{
+    width: 35%;
+}
+.myaccount .ph-remove-btn{
+    height: 39px;
+}
+
+.myaccount{
+    position: relative;
+    top: 40px;
+}
+.myaccount .form-group input{
+    border-radius: 0!important;
+    border: 1.5px solid;
+}
+.forgot-password{
+    position: relative;
+    top: 12px;
+}
+.myaccount .submit-btn{
+text-align: center;
+}
+.myaccount .privacy-text{
+    font-size: 13px;
+    color: #878787;
+
+}
+.myaccount h6{
+    font-weight: 600;
+}
+.myaccount .error_message{
+    font-size: 14px;
+    color: red;
+}

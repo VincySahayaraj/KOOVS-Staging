@@ -1,0 +1,234 @@
+.payment-section .credit-section {
+    border: 1px solid #E8E8E8;
+}
+
+.payment-section .payment-methods {
+    border: 1px solid #000;
+
+}
+
+.payment-section .no-border {
+    border-bottom: 1px solid #000;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    padding: 13px 0px;
+
+}
+
+.payment-section .card-headings {
+    background-color: #E8E8E8;
+    color: #000;
+    padding: 0px;
+    font-size: 14px;
+}
+
+.payment-section .form-contents {
+    margin-left: 28px;
+}
+
+.payment-section .paynow-btn {
+    width: 306px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #000;
+    color: #FFF;
+    margin: 25px 0px;
+}
+
+.payment-section .credit-start {
+    margin-top: 15px;
+}
+
+.payment-section .card-headings .nav-link {
+
+    color: #000;
+    padding: 1.5rem 1rem;
+}
+
+.payment-section .credit-heading {
+
+    margin-top: 27px;
+
+}
+
+.payment-section .form-details {
+
+    margin: 10px 0px;
+}
+
+.payment-section .nav-pills .nav-link.active {
+
+    background-color: #FFF;
+    color: #000;
+
+}
+
+.payment-section .bank-names {
+    width: 224px;
+    height: 60px;
+}
+
+.payment-section .card-content {
+    font-size: 14px;
+}
+
+.payment-section .no-border::placeholder {
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.payment-section .logo-space {
+
+    margin-right: 12px;
+}
+
+.payment-section .three-digits {
+
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.payment-section .expiry-year {
+
+    margin-left: 34px;
+}
+
+
+.payment-section .payment-section .payTitle {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+}
+
+.payment-section .other-payments {
+
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.payment-section .form-select {
+
+    border-radius: 0px;
+    border: 1px solid #000;
+    width: 453px;
+    margin-bottom: 12px;
+}
+
+.payment-section .price-content {
+
+    font-size: 14px;
+    line-height: 80.3%;
+    border-bottom: 1px solid #000;
+    width: 272px;
+
+}
+
+.payment-section .delivery-price {
+
+    padding-left: 74px;
+}
+
+.payment-section .delivery-address {
+
+    padding-top: 14px;
+}
+
+.payment-section .price-taxes {
+
+    opacity: 0.6;
+}
+
+.payment-section .details-textprice {
+    font-size: 11px;
+    color: #3b73af;
+}
+
+.payment-section .price-taxes img {
+    width: 18px;
+    height: 15px;
+}
+
+.payment-section .delivery-details {
+
+    font-size: 11px;
+    line-height: 103%;
+}
+
+.payment-section .product-total {
+
+    width: 237px;
+    top: 90px;
+    position: absolute;
+}
+ .Modal{
+
+    border-radius:0;
+}
+ .modal-footer  {
+    border:none;
+ 
+}
+ .modal-footer .btn-primary{
+    border-color:#000;
+
+}
+ .modal-footer button{
+    width: 100%;
+    border-radius: 0;
+    background: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+ .otp-input{
+   
+    border-bottom:1px solid #000;
+    margin-left:5px;
+    box-sizing: none;
+   
+}
+ .otp-input input{
+
+    border-top:none;
+    border-left:none;
+    border-right:none;
+
+
+}
+
+
+@media only screen and (max-width: 576px) {
+   
+    .payment-section .delivery-price{
+        padding-left:7px;
+        border-top:1px solid #c5c5c5;
+        border-bottom:1px solid #c5c5c5;
+    }
+    .payment-section .payTitle{
+        margin-top:15px;
+    }
+    .payment-section .price-content{
+        border-bottom:none;
+    }
+    .payment-section .delivery-price .delivery-address{
+        display: none;
+    }
+    .payment-section .price-range{
+        flex-direction: column-reverse;
+    }
+    .payment-section .card-content{
+        display: none;
+    }
+}
+
+.payment-section .card-thumb{
+    position: relative;
+    left: 428px;
+    bottom: 35px    ;
+}

@@ -1,0 +1,30 @@
+.arrowright .accordion-button::after{
+
+    transform: rotate(271deg) !important;
+
+}
+.arrownone .accordion-button::after{
+    display:none;
+}
+
+.arrowright .accordion-button{
+    padding: 1rem 0rem;
+}
+.arrownone .accordion-button{
+    padding: 1rem 0rem;
+}
+.crossbutton{
+    background-color:#E8E8E8 !important;
+   
+}
+.crossbutton::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 47px;
+    background: #000;
+    position: absolute;
+    transform: rotate(-38deg) translate(3px,-12px);
+   
+   
+}

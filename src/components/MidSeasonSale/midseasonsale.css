@@ -1,0 +1,35 @@
+.bg-grey img{
+    background: #fafafa;
+    margin-bottom: 0.5rem;
+}
+.bg-grey p{
+    margin-bottom:0;
+}
+.cards{
+    padding: 0.5rem;
+}
+.women-fashion .bg-grey .rear-img{
+    opacity:0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height:67%;
+    width:87%;
+    z-index:-1;
+    transition: opacity 0.4s ease-out;
+}
+.women-fashion .bg-grey:hover .rear-img{
+    opacity: 1;
+    z-index: 0;
+}
+
+.women-fashion .container-fluid #carousel-slide, .men-fashion .container-fluid #carousel-slide, .stories .container-fluid #carousel-slide{
+    padding-left: 10rem;
+}
+
+.women {
+    padding-left: 129px
+}
+.women .react-multi-carousel-list{
+    padding-left:7px;
+}

@@ -1,0 +1,27 @@
+.login-form{
+    position: relative;
+    top: 40px;
+}
+.login-form .form-group input{
+    border-radius: 0!important;
+    border: 1.5px solid;
+}
+.forgot-password{
+    position: relative;
+    top: 12px;
+}
+.login-form .submit-btn{
+text-align: center;
+}
+.login-form .privacy-text{
+    font-size: 13px;
+    color: #878787;
+
+}
+.login-form h6{
+    font-weight: 600;
+}
+.login-form .error_message{
+    font-size: 14px;
+    color: red;
+}

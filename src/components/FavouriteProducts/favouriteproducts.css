@@ -1,0 +1,111 @@
+.favourite-products input[type='radio'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 55px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+    border:1px solid #c4c4c4;
+  }
+  
+  .favourite-products input[type='radio']:hover{
+    -webkit-filter: opacity(.4);
+    filter: opacity(.4);    
+  }
+  
+  .favourite-products .blue{
+    background: #7CCCD1;
+  }
+  
+  .favourite-products .blue:checked{
+    border: 2px solid #000;
+  }
+  
+  .favourite-products .yellow{
+    background: #F0C968;
+  }
+  
+  .favourite-products .yellow:checked{
+    border: 2px solid #000;
+  }
+  
+  .favourite-products .grey{
+    background: #C4C4C4;
+  }
+  
+  .favourite-products .grey:checked{
+    /* background: linear-gradient(orange, #C4C4C4); */
+    border: 2px solid #000;
+  }
+  .preview-size ul li{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .no-stock{
+      background: #E8E8E8;
+  }
+  .no-stock::before{
+      position: absolute;
+      content:'';
+      border: 1px solid #000;
+      width: 100px;
+      transform: rotate(-40deg);
+  }
+.favIcon input {
+    display: none;
+  }
+.favIcon input:checked ~ label {
+    color: red;
+  }
+  .favourite-products .favIcon label {
+    font-size: 2.2em;
+    cursor: pointer;
+  }
+.heart-cart{
+    position: absolute;
+    content: '';
+    top:0;
+    right:0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-end;
+  }
+  .heart-cart .preview-color{
+      position: relative;
+      bottom: -5px;
+  }
+  .heart-cart img{
+      cursor: pointer;
+  }
+  .bg-green{
+    background-color: #93FAB0;
+  }
+  .bg-green .cards{
+    padding: 0.2rem;
+}
+.bg-green .cards p{
+  font-size: 10px !important;
+}
+
+.proimage{
+  /* max-width: 233px; */
+  cursor: pointer;
+}
+
+.mob-prodImage{
+  max-height: 140px;
+}
+
+.favourite-products .product_meta{
+  max-width: 70%;
+}

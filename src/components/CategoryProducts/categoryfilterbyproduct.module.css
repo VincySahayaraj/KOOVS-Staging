@@ -1,0 +1,46 @@
+
+.list_Product {
+
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 1010;
+    padding:0px 20px 91px 20px;
+    overflow-y:scroll;
+    overflow-x: hidden;
+
+}
+
+.closebutton {
+    position: relative;
+    justify-content: center;
+    padding: 8px 0px 23px 0px;
+    border-bottom:1px solid #878787;
+
+}
+
+.closeicon {
+    top: 8px;
+    left: -14px;
+    position: absolute;
+    padding: 3px 0px 2px 3px;
+}
+
+.filterbutton {
+
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+}
+.productborder {
+
+    border-bottom:1px solid #878787 !important;
+}
+
+

@@ -1,0 +1,109 @@
+.view_addtocart {
+
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: 1010;
+    padding: 0px 0px 14px 0px;
+
+
+}
+
+.closebutton {
+    position: relative;
+    justify-content: center;
+    padding: 8px 0px 23px 0px;
+
+}
+
+.closeicon {
+    top: 8px;
+    right: 0px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.filterbutton {
+
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+
+}
+
+.size_button {
+    display: inline-block;
+    width: 39px;
+    height: 30px;
+    background-color: #FFF;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.crossbutton::after {
+
+    height: 2px;
+    width: 100%;
+    background: #000;
+}
+
+.sizebutton_align {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.button_model {
+
+    display: inline-block;
+}
+
+.cartbutton {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.added_to_cart{
+    background-color: grey !important;
+    border: 2px solid !important;
+}
+
+@media only screen and (max-width: 386px) {
+
+    .view_addtocart {
+
+        bottom: 0px;
+        position: fixed;
+
+
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+
+    .view_addtocart {
+
+        bottom: 0px !important;
+        position: fixed;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .view_addtocart {}
+
+
+}
+

@@ -1,0 +1,192 @@
+.wishlistnotsignedin-section .notsignedin-heading {
+
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.wishlistnotsignedin-section {
+    margin-top: 182px;
+}
+
+.signedin {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+
+}
+
+.signin-button {
+    background: #000;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    width: 230px;
+    height: 35px;
+
+}
+
+
+.wishlistnotsignedin-section .notsignedin-heading {
+
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.wishlistnotsignedin-section {
+    margin-top: 105px;
+}
+
+.signedin {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+
+}
+
+.signin-button {
+    background: #000;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    width: 230px;
+    height: 35px;
+
+}
+
+.wishlist-not-signed .login-form{
+top: 0!important;
+}
+
+@media only screen and (max-width: 576px) {
+
+
+
+
+    .wishlistnotsignedin-section {
+        margin-top: 50px;
+    }
+
+    .signin-button {
+        background: #000;
+        color: #FFF;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        width: 200px;
+        height: 35px;
+
+    }
+
+
+
+    .wishlistnotsignedin-section {
+        margin-top: 25px;
+        padding: 0 20px;
+    }
+
+    .signin-button {
+        background: #000;
+        color: #FFF;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        width: 200px;
+        height: 35px;
+
+    }
+
+    .offer-wishlist {
+
+        margin-top: 112px;
+        width: 100%;
+        height: auto;
+        padding: 0 20px;
+        background: #93FAB0;
+        position: relative;
+
+    }
+
+    .image-wishlist {
+
+        width: 100%;
+        margin-top: -25px;
+
+    }
+
+    .wishlist-img {
+
+        width: 100%;
+
+
+    }
+
+    .discount-text {
+
+        font-weight: 600;
+        padding: 15px 0px;
+    }
+
+    .diamond-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .promotion-text {
+        margin: 18px;
+        padding-bottom: 15px;
+    }
+
+    .wear-text {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .popup-signup {
+        margin-top: 10px;
+    }
+
+    .signup-wishlist {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .signinwishlist {
+
+
+        border: 2px solid #000;
+        color: #000;
+        background-color: #FFF;
+        font-size: 12px;
+        height: 30px;
+
+    }
+
+    .signinwishlist::placeholder {
+        opacity: 0.6;
+    }
+
+    .signup-button {
+        margin-right: 18px;
+        background-color: #000;
+        color: #FFF;
+        width: 115px;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .subscribe-text {
+        font-size: 10px;
+        margin: 10px 11px 20px 19px;
+        opacity: 0.6;
+    }
+
+}

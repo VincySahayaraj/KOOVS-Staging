@@ -1,0 +1,56 @@
+.filtertext {
+
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.accordion_filter{
+
+    height:100%;
+    width:100%;
+    position: fixed;
+    top:0px;
+    left:0;
+    z-index: 1010;
+    background-color: #fff;
+    padding:0px 20px;
+    overflow:scroll;
+}
+
+
+
+.closebutton{
+    position: relative;
+    justify-content: center;
+    padding: 8px 0px 23px 0px;
+    border-bottom:1px solid #878787 !important;
+}
+
+.closeicon{
+    top:8px;
+    left:-14px;
+    position: absolute;
+    padding:3px 0px 2px 3px;
+}
+
+.filterbutton{
+
+font-family: 'Open Sauce One';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+}
+.text_menu{
+    font-size: 12px;
+}
+.productborder {
+
+    border-bottom:1px solid #878787 !important;
+}

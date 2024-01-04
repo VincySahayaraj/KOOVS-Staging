@@ -1,0 +1,69 @@
+.cart {
+    padding: 80px 0;
+}
+
+.quantity-box {
+    border: 1px solid;
+    width: 45px;
+}
+
+tr {
+    border-style: unset;
+}
+
+hr {
+    background-color: black;
+    height: 1.2px !important;
+    opacity: 1;
+}
+
+.cart .cart-total {
+    justify-content: space-between;
+}
+
+.cart .last-line {
+    position: relative;
+    bottom: 7px;
+}
+
+.cart .text-bold {
+    font-weight: 600;
+}
+
+.cart .total-price {
+    min-width: 69px;
+}
+
+.skeleton-z66nckdn7j3:empty {
+    position: relative;
+    height: 170px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 0px 0px;
+    background-image: linear-gradient(#cccccc 25px, transparent 0), linear-gradient(#cccccc 25px, transparent 0), linear-gradient(#cccccc 25px, transparent 0);
+    background-repeat: repeat-y;
+    background-size: 100% 170px, 100% 170px, 100% 170px;
+    background-position: 71px 125px, 70px 75px, 70px 25px;
+}
+
+.skeleton-z66nckdn7j3:empty:before {
+    content: ' ';
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    height: 170px;
+    -webkit-mask-image: linear-gradient(100deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80%);
+    -webkit-mask-repeat: repeat-y;
+    -webkit-mask-size: 50px 170px;
+    -webkit-mask-position: -20% 0;
+    background-image: linear-gradient(rgba(102, 102, 102, 1) 25px, transparent 0), linear-gradient(rgba(102, 102, 102, 1) 25px, transparent 0), linear-gradient(rgba(102, 102, 102, 1) 25px, transparent 0);
+    background-repeat: repeat-y;
+    background-size: 100% 170px, 100% 170px, 100% 170px;
+    background-position: 71px 125px, 70px 75px, 70px 25px;
+    animation: shineForSkeleton-z66nckdn7j3 2s infinite;
+}
+
+@keyframes shineForSkeleton-z66nckdn7j3 {
+    to {
+        -webkit-mask-position: 120% 0
+    }
+}

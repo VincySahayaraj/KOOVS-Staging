@@ -1,0 +1,176 @@
+.category-carousel{
+    margin-top:31px;
+}
+.centered {
+    position: absolute;
+    align-items: center;
+    margin-top:8px;
+   
+  }
+.category-carousel img{
+    position:relative;
+}
+
+.text-menbanner{
+
+    position :absolute;
+    z-index:4;
+    gap:315px;
+    /* display:flex;
+    flex-direction: row; */
+    color:#FFFFFF;
+    padding:10px;
+}
+/* .centered {
+    color:#fff;
+    font-size:40px;
+    font-weight:600;
+    font-style:italic;
+    position: absolute;
+    z-index: 10;
+    top: 78%;
+    right: -10%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    border: 0;
+    background: transparent;
+
+} */
+.jenCellabos-text  .centered{
+    width: 562px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 600;
+    font-style: italic;
+    z-index: 999;
+    top: unset;
+    display: inline-block;
+    transform: translateX(-7%) translateY(111%);
+}
+@media(max-width:1440px){
+    .jenCellabos-text  .centered{
+        font-size: 40px;
+    }
+}
+.jenCellabos-text{
+    position:absolute;
+    display:inline-block;
+    width:100%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    left:50%;
+    text-align:center;
+}
+
+
+
+
+.Menbanner-Image{
+    position:relative;
+}
+
+.carousel.slide{
+    height:auto;
+
+}
+
+.men-banner .carousel-indicators {
+  
+        top: unset;
+        position: absolute;
+        left: 1px;
+        width: 99%;
+        z-index: 1010;
+        height:12px;
+        bottom:0;
+}
+.carousel-heading{
+    position:absolute;
+    z-index:999;
+    color:#FFFFFF;
+    padding:13px;
+}
+
+.home_banner{
+    position: relative;
+    background: #F1FF54;
+}
+.banner-Image{
+    width:930px;
+    height:920px;
+}
+.banner-Image img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-indicators {
+    margin-right: 0;
+    margin-bottom: 0px;
+    margin-left: 0;
+    border: 2px solid #fff;
+    background-color: #fff;
+}
+.carousel-indicators [data-bs-target]{
+    width: 100%;
+    height: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    opacity: .2;
+}
+.carousel.slide{
+    margin: 2rem 0 0;
+    height: 885px;
+    overflow: hidden;
+}
+.carousel-indicators .active {
+    opacity: 1;
+}
+.carousel-indicators button{
+    margin-bottom: 0 !important;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #fff;
+    height: 4%;
+    width: 80%;
+    position: absolute;
+    bottom: 15rem;
+}
+.carousel-control-next-icon {
+    background-image: url(../../assets/images/right-arrow.png);
+    background-size: auto;
+}
+.carousel-control-prev-icon {
+    background-image: url(../../assets/images/left-arrow.png);
+    background-size: auto;
+}
+.toast{
+    position: fixed;
+    bottom: -1px;
+    z-index: 9;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+.toast-header{
+    height:80px;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #000;
+}
+.carousel-indicators [data-bs-target] {
+    border-top:0 solid transparent;
+    border-bottom: 0 solid transparent;
+}
+.category-carousel .Men{
+    text-decoration: none;
+    color:#000;
+}
+.category-carousel .Women{
+    text-decoration: none;
+    color:#000;
+}

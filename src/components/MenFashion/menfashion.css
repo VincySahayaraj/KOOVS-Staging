@@ -1,0 +1,27 @@
+.bg-grey img{
+    background: #fafafa;
+}
+.bg-grey p{
+    margin-bottom:0;
+}
+.cards{
+    padding: 0.5rem;
+}
+
+.cards img{
+    width:100%
+}
+.cards::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:67%;
+    z-index: -1;
+    transition: all 0.3s;
+}
+.men .react-multi-carousel-list{
+
+    padding-left:8px;
+}

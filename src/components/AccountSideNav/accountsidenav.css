@@ -1,0 +1,18 @@
+.account-section h4{
+    font-weight: 600;
+}
+.account-nav  span{
+    padding-top: 5px;
+}
+.account-nav  .active{
+    opacity: 0.4;
+}
+.account-section .account-actions{
+    display: block;
+}
+@media(max-width:768px)
+{
+    .account-section .account-actions{
+        display: none;
+    }
+}

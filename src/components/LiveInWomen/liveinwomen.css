@@ -1,0 +1,137 @@
+.liveinwomen {
+    position: relative;
+    padding: 37px 153px 46px 153px;
+    height: auto;
+    background-color: #CBBFFF;
+}
+
+.LiveMen {
+
+    display: flex;
+    transform: rotate(270deg);
+    position: absolute;
+    font-size: 37px;
+    height: auto;
+    margin-left: -279px;
+    bottom: 166px;
+}
+
+.liveinwomen .row{
+    --bs-gutter-x: 52px;
+}
+.liveinwomen .video-play-button {
+
+    position: absolute;
+    z-index: 10;
+    top: 37%;
+    left: 31%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    border: 0;
+    background: transparent;
+}
+
+#coming-soon {
+
+    background-color: white;
+    border: none;
+    width: 290px;
+    height: 50px;
+    font-weight: 600;
+    font-size:25px;
+
+}
+
+.coming-soon-button {
+    position: absolute;
+    z-index: 10;
+    top: 37%;
+    right: 8%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    border: 0;
+    background: transparent;
+
+}
+
+.liveinwomen .video-play-button img {
+
+    width: 96px;
+}
+
+.text-live {
+
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    display: flex !important;
+    flex-direction: row !important;
+    z-index: 999;
+    justify-content: space-between;
+    width: 65px;
+    height: 20px;
+
+}
+
+.timing-text {
+    font-size: 10px;
+    padding: 2px;
+}
+
+.Heading-live {
+    margin-top: 35px;
+    font-size: 20px;
+    font-weight:700;
+
+}
+
+.Heading-live .para-live {
+    font-size: 15px;
+    line-height: 18px;
+    min-height: 109px;
+    margin:20px 0 20px 0;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.Live-button {
+
+    width: 252px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .Live-button {
+        margin-bottom: 20px;
+    }
+    .liveinwomen {
+        padding: 0!important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .Live-button {
+        margin-bottom: 20px;
+    }
+
+    .carousel-live {
+
+        padding: 3px 5px 2px 5px;
+    }
+
+    .Heading-live .para-live{
+        font-size:12px;
+        line-height: 153.7%;
+    }
+    
+}

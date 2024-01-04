@@ -1,0 +1,52 @@
+.video-play-button {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    border: 0;
+    background: transparent;
+}
+.future-collaboration h5{
+    font-weight: 600;
+}
+.img-content img{
+    width: 100%;
+}
+#carousel-slide{
+    overflow: hidden;
+}
+.green-card{
+    /* width:300px; */
+    height: 100px;
+    background: #99D19A;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.green-card p{
+    margin-bottom: 0;
+}
+.SocialMedia .cards{
+    padding: 0.2rem;
+}
+.future-collaboration .img-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.future-collaboration .img-content p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.react-multi-carousel-list{
+    position:relative !important;
+    left:-21px !important;
+}

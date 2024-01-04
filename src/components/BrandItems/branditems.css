@@ -1,0 +1,24 @@
+.BrandItem h5{
+    margin: 0;
+}
+.BrandItem .img-content p{
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    color: #fff;
+}
+.BrandItem .img-content{
+    position: relative;
+}
+.BrandItem .react-multi-carousel-item{
+    height: 630px;
+}
+.BrandItem .react-multi-carousel-item .cards, .BrandItem .react-multi-carousel-item .img-content, .BrandItem .react-multi-carousel-item .img-content img{
+    height: 100%;
+}
+.BrandItem .cards {
+    padding: 1px;
+}
+.BrandItem .react-multi-carousel-item .img-content img{
+    width: 100%;
+}

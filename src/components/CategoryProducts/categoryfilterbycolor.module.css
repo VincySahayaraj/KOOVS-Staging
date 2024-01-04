@@ -1,0 +1,172 @@
+
+.list_color {
+
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 1010;
+   padding: 0px 20px 91px 20px;
+
+}
+
+
+.closebutton {
+    position: relative;
+    justify-content: center;
+    padding: 8px 0px 23px 0px;
+    border-bottom:1px solid #878787;
+
+}
+
+.closeicon {
+    top: 8px;
+    left: -14px;
+    position: absolute;
+    padding: 3px 0px 2px 3px;
+}
+
+.filterbutton {
+
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+}
+.productborder {
+
+    border-bottom:1px solid #878787 !important;
+}
+
+
+
+
+
+/* color style*/
+
+
+  .productborder span{
+  
+  width:60px;
+  height:40px;
+  padding:0px 5px 0px 23px ;
+  left:0px;
+  position: absolute;
+  
+  }
+  
+  .productborder p{
+  
+  padding:0px 0px 0px 85px ;
+  font-family: 'Open Sauce One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  
+  }
+.color_black{
+  
+    background-color:#000;
+  
+  }
+ .color_grey{
+  
+    background-color:#BFBFBE;
+  
+  }
+ .color_lightgrey{
+  
+    background-color:#F1F1F1;
+  
+  }
+ .color_white{
+  
+    background-color:#FFFEFF;
+  
+  }
+  
+.color_multi{
+  
+    background-image:url("../../assets/images/multicolor.png");
+  
+  }
+  .color_navy{
+  
+    background-color:#153880;
+  
+  }
+   .color_petroleum{
+  
+    background-color:#43749D;
+  
+  }
+ .color_blue{
+  
+    background-color:#5092F6;
+  
+  }
+ .color_turquise{
+  
+    background-color:#9ADADF;
+  
+  }
+ .color_lightblue{
+  
+    background-color:#D1E1F7;
+  
+  }
+   .color_brown{
+  
+    background-color:#756046;
+  
+  }
+ .color_olive{
+  
+    background-color:#A29B52;
+  
+  }
+ .color_armygreen{
+  
+    background-color:#5D6D38;
+  
+  }
+.color_green{
+  
+    background-color:#5CA831;
+  
+  }
+ .color_mint{
+  
+    background-color:#DDFDDA;
+  
+  }
+ .productborder .color_rust{
+  
+    background-color:#B4653A;
+  
+  }
+ .color_orange{
+  
+    background-color:#F09314;
+  
+  }
+ .color_peach{
+  
+    background-color:#FEC085;
+  
+  }
+ .color_yellow{
+  
+    background-color:#FEE847;
+  
+  }
+ .color_beige{
+  
+    background-color:#F7F2E5
+  
+  }
+  
